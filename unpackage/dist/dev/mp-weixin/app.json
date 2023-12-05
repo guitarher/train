@@ -1,12 +1,44 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/orderingMeal/orderingMeal",
+    "pages/journey/journey",
+    "pages/my/my"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3b99fc",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/orderingMeal/orderingMeal",
+        "iconPath": "static/tabbar/orderingMeal.png",
+        "selectedIconPath": "static/tabbar/orderingMeal-active.png",
+        "text": "订餐"
+      },
+      {
+        "pagePath": "pages/journey/journey",
+        "iconPath": "static/tabbar/list.png",
+        "selectedIconPath": "static/tabbar/list-active.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my-active.png",
+        "text": "我的"
+      }
+    ]
   },
   "usingComponents": {}
 }
