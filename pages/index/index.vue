@@ -1,6 +1,7 @@
 <template>
 	<view class="content">
 		首页
+		<tui-icon name="about"></tui-icon>
 	</view>
 </template>
 
